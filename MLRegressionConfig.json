@@ -1,0 +1,130 @@
+{
+  "LinearRegression": {
+    "fit_intercept": true,
+    "copy_X": true,
+    "n_jobs": null,
+    "positive": false
+  },
+
+  "LassoRegression": {
+    "alpha": 1.0,
+    "fit_intercept": true,
+    "precompute": false,
+    "copy_X": true,
+    "max_iter": 1000,
+    "tol": 1e-4,
+    "warm_start": false,
+    "positive": false,
+    "random_state": null,
+    "selection": "cyclic"
+  },
+
+  "RidgeRegression": {
+    "alpha": 1.0,
+    "fit_intercept": true,
+    "copy_X": true,
+    "max_iter": null,
+    "tol": 1e-4,
+    "solver": "auto",
+    "positive": false,
+    "random_state": null
+  },
+
+  "ElasticNet": {
+    "alpha": 1.0,
+    "l1_ratio": 0.5,
+    "fit_intercept": true,
+    "precompute": false,
+    "max_iter": 1000,
+    "copy_X": true,
+    "tol": 1e-4,
+    "warm_start": false,
+    "positive": false,
+    "random_state": null,
+    "selection": "cyclic"
+  },
+
+  "MultitaskElasticNet": {
+    "alpha": 1.0,
+    "l1_ratio": 0.5,
+    "fit_intercept": true,
+    "precompute": false,
+    "max_iter": 1000,
+    "copy_X": true,
+    "tol": 1e-4,
+    "warm_start": false,
+    "positive": false,
+    "random_state": null,
+    "selection": "cyclic"
+  },
+
+  "PolynomialRegression": {
+    "degree": 2,
+    "interaction_only": false,
+    "include_bias": true,
+    "order": "C"
+  },
+
+  "RandomForestRegression": {
+    "n_estimators": 100,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "min_weight_fraction_leaf": 0,
+    "max_features": 1,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0,
+    "bootstrap": true,
+    "oob_score": false,
+    "n_jobs": null,
+    "random_state": null,
+    "verbose": 0,
+    "warm_start": false,
+    "ccp_alpha": 0,
+    "max_samples": null,
+    "monotonic_cst": null
+  },
+
+  "KNeighborsRegression": {
+    "n_neighbors": 5,
+    "weights": "uniform",
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "p": 2,
+    "metric": "minkowski",
+    "metric_params": null,
+    "n_jobs": null
+  },
+
+  "XGBoost": {
+    "booster": "gbtree",
+    "verbosity": 1,
+    "validate_parameters": true,
+    "disable_default_eval_metric": false,
+
+    "eta": 0.3,
+    "gamma": 0,
+    "max_depth": 6,
+    "min_child_weight": 1,
+    "max_delta_step": 0,
+    "subsample": 1,
+    "sampling_method": "uniform",
+    "colsample_bytree": 1,
+    "colsample_bylevel": 1,
+    "colsample_bynode": 1,
+    "lambda": 1,
+    "alpha": 0,
+    "tree_method": "auto",
+    "scale_pos_weight": 1,
+    "refresh_leaf": 1,
+    "process_type": "default",
+    "grow_policy": "depthwise",
+    "max_leaves": 0,
+    "max_bin": 256,
+    "num_parallel_tree": 1,
+    "monotone_constraints": null,
+    "interaction_constraints": null,
+    "multi_strategy": "one_output_per_tree"
+  }
+}
